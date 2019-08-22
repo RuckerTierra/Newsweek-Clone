@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <title>Newsweek</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/sidebar.css" rel="stylesheet">
+  </head>
+
+  <!-- Body -->
+  <body>
+    <!-- Navbar -->
+    <nav class="topnav navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header hidden-xs">
+          <a href="#" class="pull-left">
+            <img class="visible-sm visible-lg" src="images/logo/logo_lg.svg" alt="">
+            <img class="visible-md" src="images/logo/logo-sm.svg" alt="">
+          </a>
+        </div>
+        <ul class="nav navbar-nav navbar-left nav-items visible-md visible-lg">
+          <li><a href="#">U.S.</a></li>
+          <li><a href="#">WORLD</a></li>
+          <li><a href="#">BUSINESS</a></li>
+          <li><a href="#">TECH & SCIENCE</a></li>
+          <li><a href="#" class="glyphicon glyphicon-search"></a></li>
+        </ul>
+        <div id="navbar" class="navbar-collapse collapse">
+          <a href="#" class="pull-left">
+            <img class="visible-xs" src="images/logo/logo-sm.svg" alt="">
+          </a>
+          <!-- Smaller Screen Nav Bar -->
+          <ul class="nav navbar-nav navbar-right hidden-lg hidden-md">
+            <li class="divider-vertical"></li>
+            <li class="dropdown dropdown-style">
+              <a href="#" id="search-box" class="dropdown-toggle glyphicon glyphicon-search" data-toggle="dropdown"></a>
+              <div class="banner-width-set">
+              </div>
+            </li>
+            <li class="divider-vertical"></li>
+            <li class="dropdown dropdown-style-sm-hamburger">
+              <a href="#" id="hamburger" class="dropdown-toggle glyphicon glyphicon-menu-hamburger" data-toggle="dropdown"></a>
+              <div class="banner-width-set">
+              </div>
+            </li>
+          </ul>
+          <!-- lg Screen Nav Bar -->
+          <ul class="nav navbar-nav navbar-right visible-lg visible-md">
+            <li class="divider-vertical"></li>
+            <li class="dropdown">
+              <a href="#" id="circular-image" class="dropdown-toggle" data-toggle="dropdown">
+                <div class="banner-subscribe-to">
+                  <div class="wrapper">
+                    <p><img class="img-circle" src="images/navbar/nav-bar-img.jpg">
+                      <span>Subscribe <br> To Newsweek</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="divider-vertical"></li>
+            <li class="dropdown dropdown-style">
+              <a href="#" id="map-marker" class="dropdown-toggle glyphicon glyphicon-map-marker" data-toggle="dropdown"></a>
+            </li>
+            <li class="divider-vertical"></li>
+            <li><a href="#">Sign In</a>
+              <div class="banner-sign-in">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- Main -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-9 wrapping">
+      <!-- (main) articles -->
+      <div class="main-article">
+        <img src="./images/main/main_main.jpg" alt="" class="img-responsive" id="main-main-image">
+        <div class="info-wrapper">
+          <h2 class="category-main main-link"><a href="index.html"><span style="color: red!important;">U.S.</span></a></h2>
+          <h2 class="story-article story-link"><a href="index.html"><span>Justice dept. to force reforms</span></a></h2>
+          <p class="article-summary">"The residents of Ferguson have waited nearly a year for their city to adopt an agreement."</p>
+        </div>
+      </div>
+
+      <!--horizontal line -->
+      <div class="horizontal-line" id="hr">
+        <hr>
+      </div>
+
+        <!-- small articles-->
+      <div class="row small">
+        <div class="col-xs-12 col-sm-6 col-md-9 small-blog" id="small-left-article">
+          <img src="./images/main/main1.png" class="img-responsive" alt="Beyonce on a car submerged in water" id="special-right">
+          <h2 class="main-link"><a href="index.html"><span style="color: red!important;">U.S.</span></a></h2>
+          <h2 class="story-link"><a href="index.html"><span>Gravitational Waves Detected, Proving Einstein Right</span></a></h2>
+          <p>"This [was] truly a scientific moon shot, and we landed on the moon."</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-9 small-blog" id="small-right-article">
+          <div class="special-box">
+            <img src="./images/main/main2.jpg" class="img-responsive" alt="aeriel view of a city" id="special-image">
+            <div class="special-text-box">
+              <h2 class="main-link" id="sponsor"><a href="index.html"><span style="color: #00B7FF!important;">SPONSOR INSIGHT</span></a></h2>
+              <h2 class="story-link"><a href="index.html"><span>The Best Universities of Asia</span></a></h2>
+              <p>"Universities from Asia and Europe are challenging the best schools in the USA. When it comes to choosing the right school then, the options have never been more diverse... "</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+    <!--Sidebar-->
+    <div class="col-xs-12 col-md-3 sidebar">
+      <div class="sidebar-nav">
+        <h2 id="headline-title">Latest Headlines</h2>
+        <ul id="side-bar-links">
+          <li class="side-article-link"><a class="bullet" href="index.html"><span>Harriet Harman: The New Law on Gender Pay was Labour's</span></a></li><hr>
+          <li class="side-article-link"><a class="bullet" href="index.html"><span>French Court Will Hear Facebook Nude Painting Case</span></a></li><hr>
+          <li class="side-article-link"><a class="bullet" href="index.html"><span>Rolf Harris Faces Seven Indecent Assault Charges</span></a></li><hr>
+          <li class="side-article-link"><a class="bullet" href="index.html"><span>U.K. Airbnb Host Rejects Israeli for 'Occupying Lands'</span></a></li><hr>
+          <li class="side-article-link"><a class="bullet" href="index.html"><span>Watch: Real Madrid's Pepe Gets Into Valentine's Spirit</span></a></li><hr>
+          <li class="side-article-link"><a class="bullet" href="index.html"><span>Indonesia Blocking Gay Emojis From Facebook, Whatsapp</span></a></li><hr>
+          <li class="side-article-link"><a class="bullet" href="index.html"><span>Mourinho and Woodward ‘Cannot Have Spoken’ - Van Gaal</span></a></li><hr>
+          <li class="side-article-link"><a class="bullet" href="index.html"><span>Rwanda to Relocate Burundian Refugees</span></a></li>
+        </ul>
+        <div id="sidebar-button">
+          <a href="#" class="myButton">See All Headlines</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- extra space ; delete later  -->

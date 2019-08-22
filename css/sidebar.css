@@ -1,0 +1,173 @@
+.sidebar {
+  position: absolute;
+  float: right;
+  top: 130px;
+  right: 0px;
+  bottom: ;
+  padding-top: ;
+  padding-bottom: ;
+  height: 100%;
+}
+
+#sidebar-nav {
+  /* nothing for now */
+}
+
+#headline-title {
+  color: red;
+  text-transform: uppercase;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  padding-left: -15px;
+  font-size: 22px;
+}
+
+ul {
+  padding-left: 25px;
+}
+
+#side-bar-links {
+  list-style: square;
+  color: red;
+  font-weight: bold;
+  text-align: left;
+}
+
+#side-bar-links li {
+  list-style: square;
+  color: red;
+  padding-left: -10px;
+  line-height: 1.5;
+  font-size: 18px
+}
+
+.sidebar-nav a.bullet span {
+  color: black;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/********** responsive **********/
+
+
+/***** medium screens *****/
+@media (max-width: 992px) {
+  div.col-xs-12.col-md-3.sidebar {
+    position: relative;
+    top: 10px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: #f7f7f7f7;
+    margin-bottom: 30px;
+  }
+  div.sidebar-nav {
+    padding-top: 10px;
+    text-align: center;
+  }
+  #side-bar-links { /*ul*/
+    display: inline-block;
+    padding-left: 0;
+
+  }
+  #headline-title {
+    text-align: center;
+  }
+  .side-article-link {
+    list-style-position: inside;
+    list-style-type: square;
+  }
+  .side-article-link > span a:link {
+    color: black;
+  }
+  .side-article-link > span a:active {
+    color: black;
+  }
+  hr {
+    text-align: center;
+  }
+  .myButton {
+    padding: 15px 310px;
+  }
+}
+
+
+
+/***** small screens*****/
+@media (max-width: 768px) {
+  .myButton {
+    padding: 15px 250px;
+
+  }
+}
+
+@media (max-width: 668px) {
+  div.sidebar-nav {
+    text-align: center;
+  }
+  #side-bar-links { /*ul*/
+    display: inline-block;
+    padding-left: 10px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 608px) {
+  .myButton {
+    padding: 15px 190px;
+  }
+}
+
+
+/***** extra small screens *****/
+
+@media (max-width: 500px) {
+  #small-left-article {
+    border-right: 0px;
+    margin-bottom: 10px;
+  }
+  .special-box {
+    padding-bottom: 10px:
+  }
+  .myButton {
+    padding: 15px 130px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* extra room to scroll*/
